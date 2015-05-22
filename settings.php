@@ -1,5 +1,5 @@
 <?php
-$con = mysql_connect("localhost","root","ALsk1029");
+$con = mysql_connect("localhost","*****","*******");
 mysql_select_db("bottles", $con);
 
 $query = "SELECT TargetPhe FROM settings WHERE ID=1";
