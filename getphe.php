@@ -1,7 +1,7 @@
 <?php
 $q=$_GET["q"];
 
-$con = mysql_connect('localhost', 'root', 'ALsk1029');
+$con = mysql_connect('localhost', '****', '*********');
 if (!$con)
   {
   die('Could not connect: ' . mysql_error());
