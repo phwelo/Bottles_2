@@ -1,8 +1,8 @@
 <?PHP
 date_default_timezone_set('America/Detroit');
 
-$user_name = "root";
-$password = "ALsk1029";
+$user_name = "*******";
+$password = "********"";
 $database = "bottles";
 $server = "localhost";
 
