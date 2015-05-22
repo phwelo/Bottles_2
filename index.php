@@ -20,7 +20,7 @@ if ($ZTgot>0) {
     $ZCgot = "";
 }
 
-$con = mysql_connect("localhost","root","ALsk1029");
+$con = mysql_connect("localhost","****","********");
 mysql_select_db("bottles", $con);
 
 //get current phe limit from settings table
