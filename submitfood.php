@@ -6,7 +6,7 @@ $VPhe= "$_POST[VPhe]";
 
 
 
-	$con = mysql_connect("localhost","root","ALsk1029");
+	$con = mysql_connect("localhost","*****","********");
 				mysql_select_db("bottles", $con);
 				$namequery="SELECT Name FROM food";
 				$nameresult= mysql_query($namequery, $con);
