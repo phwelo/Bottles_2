@@ -7,7 +7,7 @@ if (isset($_POST['Target'])) {
 try{
 	if (isset($_POST['Target'])) { 
 	$Target = "$_POST[Target]";
-	$con = mysql_connect("localhost","root","ALsk1029");
+	$con = mysql_connect("localhost","********","********");
 	mysql_select_db("bottles", $con);
     $sql="INSERT INTO target (Target)
 	VALUES('$Target')";
