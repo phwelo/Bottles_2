@@ -10,7 +10,7 @@ if($girl=="Z")
    $dbname="zoe";
 
 
-$conn = mysql_connect("localhost","root","ALsk1029");
+$conn = mysql_connect("localhost","*****","********");
 if(! $conn )
 {
   die('Could not connect: ' . mysql_error());
