@@ -1,7 +1,7 @@
 <?PHP
 
-$user_name = "root";
-$password = "ALsk1029";
+$user_name = "******";
+$password = "******";
 $database = "bottles";
 $server = "localhost";
 $db_handle = mysql_connect($server, $user_name, $password);
