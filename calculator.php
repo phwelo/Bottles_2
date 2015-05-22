@@ -1,5 +1,5 @@
 <?php
-$con = mysql_connect("localhost","root","ALsk1029");
+$con = mysql_connect("localhost","**********","************");
 mysql_select_db("bottles", $con);
 
 //This builds the list of food from database
